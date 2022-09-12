@@ -9,13 +9,31 @@ body {
 }
 
 .bg-blue {
-    background-color: blue;
+    background-color: rgb(54, 113, 233);
     width: fit-content;
 }
 
-* {
-    box-sizing: border-box;
+.bg-white {
+    background-color: white;
 }
+
+button {
+    border: none;
+}
+
+.color-blue {
+    color: rgb(54, 113, 233);
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+.bg-violet {
+    background-color: rgb(43, 7, 110);
+    color: white;
+}
+
 
 header {
     background-color: blueviolet;
@@ -34,4 +52,60 @@ header {
 
 .flex-col {
     flex-direction: column;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.gap-8px {
+    gap: 8px;
+}
+
+.circle {
+    background-color: rgb(75, 85, 99);
+    border-radius: 9999px;
+    height: 5rem;
+    width: 5rem;
+}
+
+.gap-15rem {
+    row-gap: 1.5rem;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+li {
+    list-style: none;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+.justify-between {
+    justify-content: space-between;
+}
+
+.icon {
+    width: 100%;
 }
