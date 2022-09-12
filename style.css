@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap);
+body {
+    background-color: rgb(13, 13, 43);
+    font-family: 'Oxanium' sans-serif;
+}
+
+.color-white {
+    color: white;
+}
+
+.bg-blue {
+    background-color: blue;
+    width: fit-content;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 5vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
