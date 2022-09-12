@@ -4,13 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./aos.js" defer></script>
-    <link rel="stylesheet" href="aos.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div data-aos="fade-up">testing</div>
+
+    <header class=".header">
+        <img src="./icon/logo.svg" alt="logo">
+        <img src="./icon/menu.svg" alt="burger menu" class="menu">
+    </header>
+
+    <section class="main">
+        <div class="deals">
+            <div class="bg-white color-grey"></div>
+            <div class="color-white"></div>
+        </div>
+        <h1 class="color-white">Fastest & Secure Platform To Invest In Crypto</h1>
+        <p class="color-white">buy and sell cryptocurrency trusted by 10M wallets, in over 100m transactions</p>
+
+        <div class="bg-blue">
+            <button class="color-white bg-blue">
+                Try For Free
+                <img src="./icon/circle.svg" alt="circle">
+            </button>
+        </div>
+        
+        <img src="./icon/hero-img.png" alt="hero-img">
+    </section>
+
+    <div class="flex fade-in">
+        <div class="flex flex-item color-white">
+            <img src="./icon/stats.svg" alt="stats icon">
+            <div class="flex flex-col">
+                <p>$30B</p>
+                <p>Digital Currency Exchange</p>
+            </div>
+        </div>
+        <div class="flex flex-item color-white">
+            <div class="flex flex-col">
+                <p>190+</p>
+                <p>Countries Around The World</p>
+            </div>
+        </div>
+        <div class="flex flex-item color-white">
+            <div class="flex flex-col">
+                <p>$10M</p>
+                <p>Trusted Wallet Investors</p>
+            </div>
+        </div>
     </div>
+    
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
