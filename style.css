@@ -1,7 +1,73 @@
 @import url(https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap);
+
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: rgb(13, 13, 43);
     font-family: 'Oxanium' sans-serif;
+    margin: 0;
+}
+
+.bg-grey {
+    background-color: rgb(75, 85, 99);
+}
+
+.color-grey {
+    color: rgb(75, 85, 99);
+}
+
+.save {
+    border-radius: 16px;
+    padding: 1% 4%;
+}
+
+.border-radius-16px {
+    border-radius: 30px;
+}
+.small, p.small {
+    font-size: small;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.69);
+}
+
+
+.free {
+    line-height: 1.5rem;
+    font-size: medium;
+}
+.padding {
+    padding: 2%;
+}
+.deals {
+    margin-top: 6%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 1%;
+    font-weight: 100;
+    font-size: small;
+    align-items: center;
+    max-width: 300px;
+    padding: 5px;
+}
+
+.w-900 {
+    font-weight: 900;
+}
+
+.margin {
+    margin-left: 9%;
+    display: flex;
+    flex-direction: column;
+}
+
+.margin-top {
+    margin-top: 60px;
+}
+h1 {
+    margin-bottom: 0;
 }
 
 .color-white {
@@ -24,9 +90,9 @@ button {
 .color-blue {
     color: rgb(54, 113, 233);
 }
-
-h1,h2 {
-    text-align: center;
+h1 {
+    font-weight: 900;
+    font-size: 2.5rem;
 }
 
 .bg-violet {
@@ -36,10 +102,10 @@ h1,h2 {
 
 
 header {
-    background-color: blueviolet;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 3%;
 }
 
 .menu {
@@ -108,4 +174,40 @@ ul {
 
 .icon {
     width: 100%;
+}
+
+.flex1 {
+    width: 4vw;
+    height: 4vh;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 2%;
+    border-radius: 200px;
+}
+
+.relative {
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.trade {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+form.flex-col {
+    height: 50vh;
+}
+
+form.flex-col > * {
+    flex: auto;
 }

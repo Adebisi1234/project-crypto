@@ -15,33 +15,37 @@
         <img src="./icon/menu.svg" alt="burger menu" class="menu">
     </header>
 
-    <section class="main">
-        <div class="deals">
-            <div class="bg-white color-grey"></div>
-            <div class="color-white"></div>
-        </div>
-        <h1 class="color-white">Fastest & Secure Platform To Invest In Crypto</h1>
-        <p class="color-white">buy and sell cryptocurrency trusted by 10M wallets, in over 100m transactions</p>
-
-        <div class="bg-blue">
-            <button class="color-white bg-blue">
-                Try For Free
-                <img src="./icon/circle.svg" alt="circle">
+        <div class="flex flex-col">
+           <div class="left-flex margin">
+            <div class="deals flex bg-grey">
+                <div class="bg-white color-grey save">70% SAVE</div>
+                <div class="color-white">For the best black friday deals</div>
+            </div>
+            <h1 class="color-white">Fastest & Secure Platform To Invest In Crypto</h1>
+            <p class="color-white small">buy and sell cryptocurrency trusted by 10M wallets, in over 100m transactions</p>
+    
+            <button class="bg-blue flex gap-8px border-radius-16px padding free">
+                <div class="color-white bg-blue">
+                    Try For FREE
+                </div>
+                <div class="flex border-radius-16px bg-white flex1">
+                    <img src="./icon/circle.svg" alt="circle">
+                </div>
             </button>
-        </div>
+           </div>
         
-        <img src="./icon/hero-img.png" alt="hero-img">
-    </section>
+            <img src="./icon/hero-img.png" alt="hero-img">
+        </div>
 
-    <div class="flex flex-col justify-center align-center">
+    <div class="flex flex-col justify-center align-center margin-top">
         <div class="flex-item gap-15rem flex  flex-col margin-auto">
             <div class="flex color-white gap-8px">
                 <div class="circle justify-center align-center flex">
                   <img src="./icon/stats.svg" alt="stats icon">
                 </div>
                  <div class="flex flex-col gap-8px">
-                     <div>$30B</div>
-                     <div>Digital Currency Exchange</div>
+                     <div class="w-900">$30B</div>
+                     <div class="small">Digital Currency Exchange</div>
                  </div>
              </div>
              <div class="flex  color-white gap-8px">
@@ -49,8 +53,8 @@
                      <img src="./icon/countries.svg" alt="countries">
                  </div>
                  <div class="flex flex-col gap-8px">
-                     <div>190+</div>
-                     <div>Countries Around The World</div>
+                     <div class="w-900">190+</div>
+                     <div class="small">Countries Around The World</div>
                  </div>
              </div>
              <div class="flex  color-white gap-8px">
@@ -58,27 +62,28 @@
                      <img src="./icon/account.svg" alt="">
                  </div>
                  <div class="flex flex-col gap-8px">
-                     <div>$10M</div>
-                     <div>Trusted Wallet Investors</div>
+                     <div class="w-900">$10M</div>
+                     <div class="small">Trusted Wallet Investors</div>
                  </div>
              </div>
         </div>
     </div>
 
     <section class="info color-white">
-        <h2>why you should choose CHAPPO</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, minima nemo maxime rem est ipsum!</p>
+        <div>
+            <h2>why you should choose CHAPPO</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, minima nemo maxime rem est ipsum!</p>
         <button class="color-white bg-blue">learn more</button>
+        </div>
 
         <img src="./icon/why-img.png" alt="why-img">
 
-        <div class="color-white">
-            <h1>How Much Can You Earn With Us</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat eveniet suscipit expedita? Inventore.</p>
-        </div>
     </section>
-
-    <section class="bg-white">
+    <div class="color-white">
+        <h1>How Much Can You Earn With Us</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat eveniet suscipit expedita? Inventore.</p>
+    </div>
+    <section class="bg-white relative">
         <form class="bg-white flex flex-col">
             <input type="text" placeholder="Enter your hash rate">
         <select>
