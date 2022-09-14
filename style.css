@@ -267,7 +267,7 @@ body > *:nth-child(n+1) {
 }
 
 .trades > * {
-    width: min(500px, 90%);
+    width: min(400px, 90%);
     margin: auto;
 }
 
@@ -390,5 +390,8 @@ div.footer {
     }
     footer {
         padding: 10px;
+    }
+    .hidden {
+        display: none;
     }
 }

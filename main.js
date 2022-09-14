@@ -1,18 +1,17 @@
-// let violet = document.querySelectorAll(".crypto")
+let violet = document.querySelectorAll(".crypto")
+let newArr = [...violet]
 
-// for (let i = 0; i < violet.length; i++) {
-//   violet[i].addEventListener('click', toggle)
-//   function toggle() {
-//     for(let j = 0; j < violet.length; j++){
-//       if(j != i){
-//         violet[j].classList.add('bg-white')
-//       }else {
-//         violet[i].classList.toggle('bg-violet')
-//       }
-  
-      
-//     }
-    
-//   }
-// }
+newArr.forEach(x=> (x.addEventListener('click', add)))
+
+function add(){
+    newArr.forEach(x => {
+        if(x != this){
+            x.classList.add('bg-white')
+            x.classList.remove('bg-violet')
+        }else{
+            this.classList.add('bg-violet')
+        }
+    })
+}
+
 
