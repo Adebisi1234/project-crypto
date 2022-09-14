@@ -152,9 +152,7 @@ img {
     margin: auto;
 }
 
-.flex-row {
-    flex-direction: row;
-}
+
 
 a {
     text-decoration: none;
@@ -293,4 +291,79 @@ body > *:nth-child(n+1) {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
     line-height: 1.75rem;
+}
+
+.mining {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 5%;
+    background-blend-mode: multiply;
+    background: url(./icon/newsletter-box.png) no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: fit-content;
+    border-radius: 16px;
+}
+
+.profit {
+    margin-bottom: 20px;
+}
+.mining input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    height: 5vh;
+    background: transparent;
+    color: white;
+    color-scheme: light;
+}
+
+.mining input::placeholder {
+    color: white;
+    
+}
+
+.button {
+   margin-top: 10px;
+}
+
+.button button {
+    border-radius: 16px;
+}
+.p > p.small {
+    padding: 0;
+    margin: 0;
+}
+
+.p {
+    padding-bottom: 10px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+@media screen and (min-width:700px) {
+    .flex-row {
+        flex-direction: row;
+    }
+    .order-1 {
+        order: -1;
+    }
+
+    .info {
+        padding: 10%;
+    }
+    .flex-1 {
+        flex: 1;
+    }
+    form.flex-row {
+        width: 100%;
+        height: fit-content;
+    }
+    form.flex-row > *, form.flex-row > *:focus-visible {
+        height: 100%;
+    }
 }

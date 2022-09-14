@@ -15,7 +15,7 @@
         <img src="./icon/menu.svg" alt="burger menu" class="menu">
     </header>
 
-        <div class="flex flex-col">
+        <div class="flex flex-col flex-row">
            <div class="left-flex margin">
             <div class="deals flex bg-grey">
                 <div class="bg-white color-grey save">70% SAVE</div>
@@ -37,8 +37,7 @@
             <img src="./icon/hero-img.png" alt="hero-img">
         </div>
 
-    <div class="flex flex-col justify-center align-center margin-top">
-        <div class="flex-item gap-15rem flex  flex-col margin-auto">
+    <div class="flex flex-col justify-between align-center margin-top flex-row">
             <div class="flex color-white gap-8px">
                 <div class="circle justify-center align-center flex">
                   <img src="./icon/stats.svg" alt="stats icon">
@@ -66,17 +65,16 @@
                      <div class="small">Trusted Wallet Investors</div>
                  </div>
              </div>
-        </div>
     </div>
 
-    <section class="info color-white">
-        <div>
-            <h2>why you should choose CHAPPO</h2>
+    <section class="info color-white flex flex-col flex-row justify-center align-center">
+        <div class="left-flex">
+            <h1>why you should choose CHAPPO</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, minima nemo maxime rem est ipsum!</p>
         <button class="color-white bg-blue">learn more</button>
         </div>
 
-        <img src="./icon/why-img.png" alt="why-img">
+        <img src="./icon/why-img.png" alt="why-img" class="order-1">
 
     </section>
     <div class="color-white">
@@ -150,43 +148,73 @@
     </section>
 
     <section>
-        <h2 class="color-white">
+        <h2 class="color-white text-center">
             Market Sentiments, Porfolio, And Run The Infrastructure Of Your Choice
         </h2>
 
-        <section class="invest">
-            <h3 class="color-white">Invest Smart</h3>
-        <p class="color-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, voluptates totam! Quae ipsa quis voluptatibus?</p>
+        <section class="invest flex flex-col">
+            <div class="left-flex">
+                <h3 class="color-white">
+                    Invest Smart
+                </h3>
+                <p class="color-white small">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, voluptates totam! Quae ipsa quis voluptatibus?
+                </p>
+    
+                <button class="bg-blue color-white">
+                    learn more
+                </button>
+            </div>
 
-        <button class="bg-blue color-white">learn more</button>
-
-        <img src="./icon/feature-1-img.png" alt="feature-1-img">
-
-        <h3 class="color-white">Detailed Statistics</h3>
-        <p class="color-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae officiis voluptas, necessitatibus aut vel quia.</p>
-
-        <button class="bg-blue color-white">learn more</button>
-
-        <img src="./icon/feature-2-img.png" alt="feature-2-img">
+            <img src="./icon/feature-1-img.png" alt="feature-1-img">
         </section>
-        <section class="profit">
-            <h2 class="color-white">Grow Your Profit And Track Your Investments</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem beatae, illo officiis voluptates nobis expedita.</p>
-            <button class="bg-blue color-white">learn more</button>
+
+        <section class="flex flex-col">
+            <div class="left-flex">
+                <h3 class="color-white">
+                    Detailed Statistics
+                </h3>
+                <p class="color-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae officiis voluptas, necessitatibus aut vel quia.
+                </p>
+    
+                <button class="bg-blue color-white">
+                    learn more
+                </button>
+            </div>
+
+            <img src="./icon/feature-2-img.png" alt="feature-2-img">
+        </section>
+        <section class="profit flex flex-col">
+            <div class="left-flex">
+                <h2 class="color-white">
+                    Grow Your Profit And Track Your Investments
+                </h2>
+                <p class="color-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem beatae, illo officiis voluptates nobis expedita.
+                </p>
+                <button class="bg-blue color-white">
+                    learn more
+                </button>
+            </div>
 
             <img src="./icon/feature-3-img.png" alt="feature-3-img">
         </section>
     </section>
 
-    <section class="bg-blue color-white bg-img">
+    <section class="bg-blue color-white bg-img mining">
         <h3>Start Mining Now</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, maxime.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, maxime.</p>
+        <div class="p">
+            <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, maxime.</p>
+            <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, maxime.</p>
+        </div>
 
         <form>
             <input type="text" placeholder="enter message">
 
-            <button>Subscribe</button>
+            <div class="flex justify-center align-center button">
+                <button>Subscribe</button>
+            </div>
         </form>
     </section>
 
