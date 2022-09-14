@@ -86,7 +86,6 @@ h1 {
 button {
     border: none;
 }
-
 .color-blue {
     color: rgb(54, 113, 233);
 }
@@ -145,7 +144,7 @@ img {
 }
 
 .gap-15rem {
-    row-gap: 1.5rem;
+    gap: 1.5rem;
 }
 
 .margin-auto {
@@ -171,7 +170,7 @@ ul {
 }
 
 .icon {
-    width: 100%;
+    width: fit-content;
 }
 
 .flex1 {
@@ -195,7 +194,7 @@ button {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 50px;
+    top: 100px;
     border-radius: 40px;
     padding: 5%;
     padding-top: 30px;
@@ -205,7 +204,7 @@ button {
 
 .trade {
     width: 100vw;
-    padding-top: 50px;
+    padding-top: 70px;
     margin: 0;
     gap: 20px;
 }
@@ -239,7 +238,7 @@ body > *:nth-child(n+1) {
 }
 
 .crypto {
-    padding: 10%;
+    padding: 5%;
     gap: 10px;
     border-radius: 16px;
 }
@@ -264,11 +263,11 @@ body > *:nth-child(n+1) {
     margin: 0;
 }
 .trades {
-    gap: 24px;
+    gap: 8px;
 }
 
 .trades > * {
-    width: min(700px, 90%);
+    width: min(500px, 90%);
     margin: auto;
 }
 
@@ -325,6 +324,10 @@ body > *:nth-child(n+1) {
     
 }
 
+.margin-bottom {
+    margin-bottom: 100px;
+}
+
 .button {
    margin-top: 10px;
 }
@@ -341,7 +344,7 @@ body > *:nth-child(n+1) {
     padding-bottom: 10px;
 }
 
-footer {
+div.footer {
     margin-top: 20px;
 }
 
@@ -365,5 +368,27 @@ footer {
     }
     form.flex-row > *, form.flex-row > *:focus-visible {
         height: 100%;
+    }
+    .margin-left {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .pad {
+        padding: 0 50px;
+    }
+    div.footer > img {
+        align-self: flex-start;
+        justify-self: flex-start;
+    }
+    div.footer > .payment {
+        align-self: flex-start;
+        justify-self: flex-start;
+    }
+    .icon {
+        width: fit-content;
+    }
+    footer {
+        padding: 10px;
     }
 }

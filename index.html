@@ -34,11 +34,11 @@
             </button>
            </div>
         
-            <img src="./icon/hero-img.png" alt="hero-img">
+            <img src="./icon/hero-img.png" alt="hero-img" class="margin-left">
         </div>
 
-    <div class="flex flex-col justify-between align-center margin-top flex-row">
-            <div class="flex color-white gap-8px">
+    <div class="flex flex-col justify-between align-center margin-top flex-row pad">
+            <div class="flex color-white gap-8px align-center justify-center">
                 <div class="circle justify-center align-center flex">
                   <img src="./icon/stats.svg" alt="stats icon">
                 </div>
@@ -47,7 +47,7 @@
                      <div class="small">Digital Currency Exchange</div>
                  </div>
              </div>
-             <div class="flex  color-white gap-8px">
+             <div class="flex  color-white gap-8px align-center justify-center">
                  <div class="circle justify-center align-center flex">
                      <img src="./icon/countries.svg" alt="countries">
                  </div>
@@ -56,7 +56,7 @@
                      <div class="small">Countries Around The World</div>
                  </div>
              </div>
-             <div class="flex  color-white gap-8px">
+             <div class="flex  color-white gap-8px align-center justify-center">
                  <div class="circle justify-center align-center flex">
                      <img src="./icon/account.svg" alt="">
                  </div>
@@ -109,8 +109,8 @@
     <section class="trade flex flex-col bg-white">
         <h1 class="text-center">Trade Securely And Market The High Growth Cryptocurrencies</h1>
 
-        <div class="flex flex-col trades">
-            <div class="flex justify-center align-center flex-col bg-violet crypto">
+        <div class="flex flex-col trades flex-row">
+            <div class="flex justify-center align-center flex-col  crypto">
                 <img src="./icon/bitcon.png" alt="bitcoin">
                 <div class="h1">
                     <h1>Bitcoin</h1>
@@ -121,7 +121,7 @@
                     <img src="./icon/circle.svg" alt="">
                 </button>
             </div>
-            <div class="flex justify-center align-center flex-col bg-violet crypto">
+            <div class="flex justify-center align-center flex-col  crypto">
                 <img src="./icon/ethereum.png" alt="ethereum">
                <div class="h1">
                  <h1>Ethereum</h1>
@@ -133,7 +133,7 @@
                     <img src="./icon/circle.svg" alt="">
                 </button>
             </div>
-            <div class="flex justify-center align-center flex-col bg-violet crypto">
+            <div class="flex justify-center align-center flex-col  crypto">
                 <img src="./icon/litecoin.png" alt="">
                 <div class="h1">
                     <h1>litecoin</h1>
@@ -148,11 +148,11 @@
     </section>
 
     <section>
-        <h2 class="color-white text-center">
+        <h2 class="color-white text-center margin-bottom">
             Market Sentiments, Porfolio, And Run The Infrastructure Of Your Choice
         </h2>
 
-        <section class="invest flex flex-col">
+        <section class="invest flex flex-col flex-row justify-center gap-15rem margin-left">
             <div class="left-flex">
                 <h3 class="color-white">
                     Invest Smart
@@ -169,7 +169,7 @@
             <img src="./icon/feature-1-img.png" alt="feature-1-img">
         </section>
 
-        <section class="flex flex-col">
+        <section class="flex flex-col flex-row gap-15rem margin-top margin-left justify-center align-center margin-bottom">
             <div class="left-flex">
                 <h3 class="color-white">
                     Detailed Statistics
@@ -183,9 +183,9 @@
                 </button>
             </div>
 
-            <img src="./icon/feature-2-img.png" alt="feature-2-img">
+            <img src="./icon/feature-2-img.png" alt="feature-2-img" class="order-1">
         </section>
-        <section class="profit flex flex-col">
+        <section class="profit flex flex-col flex-row gap-15rem margin-top margin-left justify-center align-center margin-bottom">
             <div class="left-flex">
                 <h2 class="color-white">
                     Grow Your Profit And Track Your Investments
@@ -218,7 +218,7 @@
         </form>
     </section>
 
-    <footer class="color-white align-center justify-center flex flex-col">
+    <div class="color-white align-center justify-center flex flex-col flex-row justify-between footer margin-top margin-left">
         <img src="./icon/logo.svg" alt="logo">
         <div class="quick-links">
             <h3>Quick Links</h3>
@@ -249,21 +249,22 @@
                 <img src="./icon/bitcoin.png" alt="bitcoin">
             </div>
         </div>
-        <div class="flex flex-col align-center gap-15rem">
-            <div>© 2022 CRAPPO. All rights reserved.</div>
-            <div class="flex gap-8px justify-between icon">
-                <a href="#"><img src="./icon/youtube.svg" alt="youtube"></a>
-                <a href="#"><img src="./icon/whatsapp.svg" alt="whatsapp"></a>
-                <a href="#"><img src="./icon/instagram.svg" alt="instagram"></a>
-                <a href="#"><img src="./icon/twitter.svg" alt="twitter"></a>
-                <a href="#"><img src="./icon/linkedin.svg" alt="linkedin"></a>
-            </div>
+    </div>
+
+    <footer class="flex flex-row justify-between color-white align-center flex-col gap-15rem margin-left">
+        <div>© 2022 CRAPPO. All rights reserved.</div>
+        <div class="flex gap-15rem icon">
+            <a href="#"><img src="./icon/youtube.svg" alt="youtube"></a>
+            <a href="#"><img src="./icon/whatsapp.svg" alt="whatsapp"></a>
+            <a href="#"><img src="./icon/instagram.svg" alt="instagram"></a>
+            <a href="#"><img src="./icon/twitter.svg" alt="twitter"></a>
+            <a href="#"><img src="./icon/linkedin.svg" alt="linkedin"></a>
         </div>
     </footer>
-
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+    <script src="./main.js"></script>
 </body>
 </html>
