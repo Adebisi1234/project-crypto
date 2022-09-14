@@ -241,6 +241,8 @@ body > *:nth-child(n+1) {
     padding: 5%;
     gap: 10px;
     border-radius: 16px;
+    transition-timing-function: cubic-bezier(.4,0,1,1);
+    transition-duration: .3s;
 }
 
 .crypto > * {
@@ -346,6 +348,12 @@ body > *:nth-child(n+1) {
 
 div.footer {
     margin-top: 20px;
+}
+
+@media  (max-width: 699px) {
+    .show {
+        display: none;
+    }
 }
 
 @media screen and (min-width:700px) {
