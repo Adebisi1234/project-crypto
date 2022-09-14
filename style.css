@@ -192,22 +192,105 @@ button {
 }
 
 .relative {
-    width: 90%;
+    width: max(80%, 600px);
     margin: auto;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 50px;
+    border-radius: 40px;
+    padding: 5%;
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: larger;
 }
 
 .trade {
     width: 100vw;
-    padding: 0;
+    padding-top: 50px;
     margin: 0;
+    gap: 20px;
 }
 
 form.flex-col {
-    height: 50vh;
+    height: 30vh;
+    width: 100%;
+
 }
 
-form.flex-col > * {
-    flex: auto;
+form.flex-col > *, form.flex-col > *:focus-visible {
+    height: 30%;
+    border: none;
+    outline: none;
+}
+
+form.flex-col button {
+    width: fit-content;
+    height: fit-content;
+    padding-top: 10px;
+}
+form.flex-col > input::placeholder, form.flex-col > input {
+    font-size: 24px;
+}
+.f-32px {
+    font-size: 32px;
+}
+
+body > *:nth-child(n+1) {
+    padding-left: 20px;
+}
+
+.crypto {
+    padding: 10%;
+    gap: 10px;
+    border-radius: 16px;
+}
+
+.crypto > * {
+    padding: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    gap: 4px;
+}
+
+.h1 h1 {
+    margin: 0;
+}
+.trades {
+    gap: 24px;
+}
+
+.trades > * {
+    width: min(700px, 90%);
+    margin: auto;
+}
+
+.trades {
+    margin-bottom: 30px;
+}
+
+.big {
+    width: 4rem;
+    height: 4rem;
+}
+
+.big > img {
+    height: 100%;
+    width: auto;
+}
+
+.bigger {
+    font-size: 1.125rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    line-height: 1.75rem;
 }
